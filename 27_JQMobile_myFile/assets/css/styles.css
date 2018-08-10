@@ -1,0 +1,22 @@
+*{font-family:verdana;}
+
+body{    
+    background-color: whitesmoke;    
+}
+#wrapper{
+    width:50%;
+    height:10rem;
+    background-color:lightgray;
+}
+.listView li{
+    width:50%;
+}
+#imageCat{
+    background-image:'./assets/images/britische-kurzhaar-katze.jpg';
+    background-size:100% 100%;
+}
+.bgColor{
+    background-color:green !important;
+    border-radius:15px;
+}
+
