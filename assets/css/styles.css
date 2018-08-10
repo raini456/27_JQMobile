@@ -5,7 +5,13 @@ body{
 .catImage{
     background-size:100% 100%;
 }
-.catInfo{
-    font-size:60%;
+.catInfo{    
     font-weight:lighter;
+    overflow:auto;
+}
+@media screen and (min-width:500px){
+    .catImage{
+        background-size:40% 100%; 
+        background-repeat:no-repeat;
+    }
 }

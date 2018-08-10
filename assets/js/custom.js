@@ -20,7 +20,10 @@ function getCatFromId(id) {
             backgroundImage:"url('assets/images/"+allData[0].image+"')"
         });
         $('.catImage').text(allData[0].farbe);
-        $('.catInfo').text(allData[0].info);        
+        $('.catInfo').text(allData[0].info); 
+        $('.catInfo').css({
+            fontSize:'80%'
+        });
         
             
         
